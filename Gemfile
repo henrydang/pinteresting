@@ -28,6 +28,10 @@ gem 'paperclip', '~> 4.2.1'
 
 gem 'aws-sdk', '~> 1.60.2'
 
+gem 'masonry-rails', '~> 0.2.0'
+
+gem 'jquery-turbolinks'
+
 
 
 # Use ActiveModel has_secure_password
