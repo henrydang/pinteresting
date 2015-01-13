@@ -1,3 +1,6 @@
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
 $body-bg:                                                   #ecf0f1;
@@ -8,7 +11,7 @@ $navbar-default-brand-color:      #c0392b;
 $brand-primary:                                    #c0392b;
 $jumbotron-bg:                                         white;
 
-@import 'bootstrap';
+
 
 .center {
      text-align: center;
