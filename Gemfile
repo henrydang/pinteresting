@@ -26,6 +26,8 @@ gem 'devise', '~> 3.4.1'
 
 gem 'paperclip', '~> 4.2.1'
 
+gem 'aws-sdk', '~> 1.60.2'
+
 
 
 # Use ActiveModel has_secure_password
@@ -53,7 +55,6 @@ end
 group :production do
 	gem 'pg'
 	gem 'rails_12factor'
-  gem 'aws-sdk', '~> 1.20.0'
 end
 
 
